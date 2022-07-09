@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+}
+
+.logo {
+  height: auto;
+  width: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.img img {
+  height: auto;
+  width: 200px;
+}
