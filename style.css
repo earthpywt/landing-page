@@ -11,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   height: 600px;
-  padding: 10px;
+  padding: 20px 10px 10px 10px;
 }
 .header {
   display: flex;
@@ -61,7 +61,7 @@
   font-weight: bold;
   color: #f9faf8;
   background-color: #3882f6;
-  padding: 8px 24px;
+  padding: 8px 32px;
   border: none;
   border-radius: 8px;
 }
@@ -76,7 +76,85 @@
   width: 100px;
 }
 /* ---------------------------------------- */
+.two {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  justify-content: space-evenly;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.album {
+  display: flex;
+  gap: 40px;
+}
+
 .img img {
-  height: auto;
+  /*height: auto;*/
+  height: 296px;
   width: 200px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.img-text {
+  text-align: center;
+}
+
+.two-hidden {
+  font-size: 36px;
+  font-weight: 900;
+  color: white;
+}
+
+/* ---------------------------------------- */
+.three {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.three-content {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quoter {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1f2937;
+}
+/* ---------------------------------------- */
+.four {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  color: white;
+}
+
+.sign-up {
+  width: 1200px;
+  height: 200px;
+  background-color: #3882f6;
+  border-radius: 8px;
 }
