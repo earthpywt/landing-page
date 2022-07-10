@@ -1,18 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.one {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 600px;
+  padding: 10px;
+}
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: 1200px;
+  margin-bottom: 50px;
 }
 
 .logo {
   height: auto;
-  width: 100px;
+  width: 75px;
 }
 
-ul {
+.pages {
   margin: 0;
   padding: 0;
   display: flex;
+  list-style-type: none;
+  gap: 20px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
+.intro {
+  display: flex;
+  width: 1200px;
+  align-self: center;
+  justify-content: center;
+}
+
+.intro-main {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: -10px;
+}
+
+.intro-second {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.first-button {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+}
+
+.intro-pic {
+  height: auto;
+  width: 600px;
+}
+
+.invisible {
+  height: 75px;
+  width: 100px;
+}
+/* ---------------------------------------- */
 .img img {
   height: auto;
   width: 200px;
